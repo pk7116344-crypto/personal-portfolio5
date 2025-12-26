@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+/* ===== NAVBAR ===== */
+header{
+    background:#111;
+    padding:15px 40px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#00d9ff;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* ===== HERO ===== */
+.hero{
+    background:linear-gradient(to right, #007bff, #00c6ff);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero span{
+    color:yellow;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:10px 25px;
+    border:none;
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+
+/* ===== SECTIONS ===== */
+.section{
+    padding:50px;
+    margin:30px;
+    background:white;
+    border-radius:10px;
+}
+
+.section h2{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+/* ===== pic ===== */
+.profile-pic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.profile-pic img{
+  width: 180px;
+  height: 180px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+/* ===== ABOUT ===== */
+.about-box{
+    background:#e8f4ff;
+    padding:25px;
+    border-radius:10px;
+}
+
+/* ===== SKILLS ===== */
+.skill-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.skill-card{
+    width:150px;
+    text-align:center;
+    padding:20px;
+    margin:10px;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.html{ background:#e34c26; }
+.css{ background:#264de4; }
+.js{ background:#f0db4f; color:black; }
+.git{ background:#333; }
+.python{
+  background: #306998;   /* Python blue */
+  color: white;
+}
+
+/* ===== PROJECTS ===== */
+.project-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    width:300px;
+    background:#f9f9f9;
+    padding:20px;
+    margin:15px;
+    border-left:5px solid #007bff;
+    border-radius:10px;
+}
+
+/* ===== CONTACT ===== */
+.contact-section{
+    background:#f7f9fc;
+    padding:60px 20px;
+
+    /* CENTER MAGIC */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.contact-section h2{
+    color:#1e88e5;
+    font-size:36px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.contact-form{
+    width:100%;
+    max-width:500px;
+}
+
+.contact-form label{
+    font-weight:bold;
+    color:#1e88e5;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0 20px;
+    border:2px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    resize:none;
+    height:120px;
+}
+
+.contact-form button{
+    width:100%;
+    padding:15px;
+    background:#ffeb00;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.contact-info{
+    margin-top:25px;
+    text-align:center;
+    color:#555;
+}
+
+/* ===== SOCIAL MEDIA LINKS ===== */
+.social-links{
+    margin-top:20px;
+    display:flex;
+    gap:20px;
+}
+
+.social-links a{
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    color:white;
+}
+
+.social-links a:nth-child(1){
+  background: #E1306C; /* Instagram */
+}
+
+.social-links a:nth-child(2){
+  background: #FFFC00; /* Snapchat */
+  color: black;
+}
+
+.social-links a:nth-child(3){
+  background: #0077B5; /* LinkedIn */
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
